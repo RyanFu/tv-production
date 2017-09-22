@@ -1,0 +1,30 @@
+{
+  "name": "node-spa-server",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "compression": "^1.7.0",
+    "connect-history-api-fallback": "^1.3.0",
+    "cookie-parser": "~1.4.3",
+    "express": "~4.15.2"
+  },
+  "description": "single page app server for node.js (static web server)",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EthanOrange/node-spa-server.git"
+  },
+  "keywords": [
+    "node-spa-server"
+  ],
+  "author": "EthanOrange",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EthanOrange/node-spa-server/issues"
+  },
+  "homepage": "https://github.com/EthanOrange/node-spa-server#readme"
+}
