@@ -35,15 +35,12 @@ app.use(function (err, req, res, next) {
   res.send(err);
 });
 
-
-
 var port = normalizePort(process.env.PORT || '8000');
 app.set('port', port);
 
 var server = http.createServer(app);
 
 server.listen(port);
-
 
 function normalizePort(val) {
   var port = parseInt(val, 10);
